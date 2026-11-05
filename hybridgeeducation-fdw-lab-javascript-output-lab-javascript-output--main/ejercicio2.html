@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostracion de output JavaScript </title>
+</head>
+<body>
+    
+    <button onclick="mostrarAlerta()">Click</button>
+
+    <p id="miParrafo2"></p>
+    <button onclick="actualizarTextoo()">Aqui w</button>
+
+    <script>
+        function mostrarAlerta() {
+            alert("Hola, Mi nombre es Samuel")
+        }
+        
+
+        function actualizarTextoo() {
+            document.getElementById("miParrafo2").innerHTML = "Texto actualizado con JavaScript";
+        }
+
+        console.log("La pagina se ha cargado correctamente");
+    </script>
+</body>
+</html>
+
